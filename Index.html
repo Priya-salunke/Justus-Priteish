@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JUST US - PRITESH :)</title>
+   <style>
+    body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   
+  
+}
+
+.message {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 50px;  /* Space between message and circle */
+  text-align: center;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  
+}
+
+.emoji-heart {
+  display: inline-block;
+  animation: emojiBeat 1s infinite;
+  transform-origin: center;
+}
+
+.circle-container {
+  width: 335px;  /* Circle size */
+  height: 335px; /* Circle size */
+  background-color: rgb(39, 38, 38);
+  border: 4px solid rgb(189, 40, 40);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  position: relative;
+  margin-top: 30px;  /* Adds space between the text and the circle */
+  margin-bottom: 60px;
+}
+
+.heart {
+  position: absolute;
+  width: 140px;  /* Reduced heart size */
+  height: 140px; /* Reduced heart size */
+  background-color: rgb(178, 22, 22);
+  transform: rotate(-45deg);
+  animation: beat 1s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 110px;   
+}
+
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  width: 140px;  /* Reduced size */
+  height: 140px; /* Reduced size */
+  background-color: rgb(178, 22, 22);
+  border-radius: 50%;
+}
+
+.heart:before {
+  top: -65px;  /* Adjusted for smaller heart */
+  left: 0;
+}
+
+.heart:after {
+  top: 0;
+  left: 65px;  /* Adjusted for smaller heart */
+}
+
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1) rotate(-45deg);
+  }
+  50% {
+    transform: scale(0.85) rotate(-45deg);
+  }
+}
+
+@keyframes emojiBeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+   </style>
+</head>
+<body>
+  <div class="back">
+    <div class="message">
+      To My Fragile Baby 🐥 <br>
+       I love you sooooooooooo muchhhh <span class="emoji-heart">❤️</span> Like I don't even have words to describe
+       how much love I have for you. Literallyyyy I didn't think you'd mean this much to me and now you're my whole
+       worldddd. 
+       in case you still have any doubt, I love you, I'm going to keep loving you no matter what.
+I'm never leaving you, so I want you to throw that fear away. I'm willing to keep trying for us at all cost. I don't know how to make you believe that how important you are to me. 
+Sometimes, I might be mad, upset , angry and hurt, I might start having second thoughts of loving you but at the end I'm still going to choose to love you uncondentionally because those emotions are just a phase of being silly. 
+If i'm being stubborn or not understanding then I want you to be the same and handle it. I can do same for you when you behaving like that. 
+I don't know whether you love me or not, but I want to keep working for us even more. 
+
+Btw , I feel so privileged to be loved and cared by you sometimes :) 
+you are enough for me baby, I love you superman 🫂<br> 
+and yeah last but not the least (Not every girls are same),
+I promise, either I'll be your partner, or I won't be anything at all.
+for sure, I'll be there for you always in your ups & downs. so yeah that's what I want to express :)
+<br> Uuuummmmaaaahhhh 😘💕  <br>  
+<br> (I don't think you'll need reassurance from now on, just one click, and you'll get it)
+
+    </div>
+    <div class="circle-container">
+      <div class="heart"></div>
+    </div>
+  </div>
+</body>
+</html>
